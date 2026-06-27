@@ -1,0 +1,383 @@
+{
+  "descriptive": {
+    "order_id": {
+      "count": 30.0,
+      "unique": "nan",
+      "top": "nan",
+      "freq": "nan",
+      "mean": 1015.5,
+      "min": 1001.0,
+      "25%": 1008.25,
+      "50%": 1015.5,
+      "75%": 1022.75,
+      "max": 1030.0,
+      "std": 8.803408430829505
+    },
+    "customer_name": {
+      "count": 30.0,
+      "unique": 30.0,
+      "top": "Rahul Sharma",
+      "freq": 1.0,
+      "mean": "nan",
+      "min": "nan",
+      "25%": "nan",
+      "50%": "nan",
+      "75%": "nan",
+      "max": "nan",
+      "std": "nan"
+    },
+    "product": {
+      "count": 30.0,
+      "unique": 18.0,
+      "top": "Laptop",
+      "freq": 4.0,
+      "mean": "nan",
+      "min": "nan",
+      "25%": "nan",
+      "50%": "nan",
+      "75%": "nan",
+      "max": "nan",
+      "std": "nan"
+    },
+    "category": {
+      "count": 30.0,
+      "unique": 2.0,
+      "top": "Electronics",
+      "freq": 20.0,
+      "mean": "nan",
+      "min": "nan",
+      "25%": "nan",
+      "50%": "nan",
+      "75%": "nan",
+      "max": "nan",
+      "std": "nan"
+    },
+    "quantity": {
+      "count": 30.0,
+      "unique": "nan",
+      "top": "nan",
+      "freq": "nan",
+      "mean": 2.2333333333333334,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 3.0,
+      "max": 6.0,
+      "std": 1.3817363722139078
+    },
+    "unit_price": {
+      "count": 30.0,
+      "unique": "nan",
+      "top": "nan",
+      "freq": "nan",
+      "mean": 15998.333333333334,
+      "min": 850.0,
+      "25%": 3500.0,
+      "50%": 8500.0,
+      "75%": 23500.0,
+      "max": 53500.0,
+      "std": 16795.270697910524
+    },
+    "order_date": {
+      "count": 30.0,
+      "unique": "nan",
+      "top": "nan",
+      "freq": "nan",
+      "mean": "2024-01-30 21:36:00",
+      "min": "2024-01-05 00:00:00",
+      "25%": "2024-01-17 12:00:00",
+      "50%": "2024-01-30 00:00:00",
+      "75%": "2024-02-13 12:00:00",
+      "max": "2024-02-27 00:00:00",
+      "std": "nan"
+    },
+    "region": {
+      "count": 30.0,
+      "unique": 4.0,
+      "top": "West",
+      "freq": 8.0,
+      "mean": "nan",
+      "min": "nan",
+      "25%": "nan",
+      "50%": "nan",
+      "75%": "nan",
+      "max": "nan",
+      "std": "nan"
+    },
+    "sales_rep": {
+      "count": 30.0,
+      "unique": 4.0,
+      "top": "Ankit Mehta",
+      "freq": 8.0,
+      "mean": "nan",
+      "min": "nan",
+      "25%": "nan",
+      "50%": "nan",
+      "75%": "nan",
+      "max": "nan",
+      "std": "nan"
+    },
+    "status": {
+      "count": 30.0,
+      "unique": 3.0,
+      "top": "Completed",
+      "freq": 25.0,
+      "mean": "nan",
+      "min": "nan",
+      "25%": "nan",
+      "50%": "nan",
+      "75%": "nan",
+      "max": "nan",
+      "std": "nan"
+    },
+    "total_revenue": {
+      "count": 30.0,
+      "unique": "nan",
+      "top": "nan",
+      "freq": "nan",
+      "mean": 24085.0,
+      "min": 2400.0,
+      "25%": 7525.0,
+      "50%": 14250.0,
+      "75%": 35000.0,
+      "max": 107000.0,
+      "std": 22957.663997168715
+    },
+    "avg_unit_value": {
+      "count": 30.0,
+      "unique": "nan",
+      "top": "nan",
+      "freq": "nan",
+      "mean": 15998.333333333334,
+      "min": 850.0,
+      "25%": 3500.0,
+      "50%": 8500.0,
+      "75%": 23500.0,
+      "max": 53500.0,
+      "std": 16795.270697910524
+    },
+    "order_month": {
+      "count": 30.0,
+      "unique": 2.0,
+      "top": "2024-01",
+      "freq": 15.0,
+      "mean": "nan",
+      "min": "nan",
+      "25%": "nan",
+      "50%": "nan",
+      "75%": "nan",
+      "max": "nan",
+      "std": "nan"
+    },
+    "order_quarter": {
+      "count": 30.0,
+      "unique": 1.0,
+      "top": "2024Q1",
+      "freq": 30.0,
+      "mean": "nan",
+      "min": "nan",
+      "25%": "nan",
+      "50%": "nan",
+      "75%": "nan",
+      "max": "nan",
+      "std": "nan"
+    },
+    "order_dayofweek": {
+      "count": 30.0,
+      "unique": 7.0,
+      "top": "Sunday",
+      "freq": 5.0,
+      "mean": "nan",
+      "min": "nan",
+      "25%": "nan",
+      "50%": "nan",
+      "75%": "nan",
+      "max": "nan",
+      "std": "nan"
+    },
+    "is_completed": {
+      "count": 30.0,
+      "unique": "nan",
+      "top": "nan",
+      "freq": "nan",
+      "mean": 0.8333333333333334,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0,
+      "std": 0.3790490217894517
+    }
+  },
+  "revenue": {
+    "total": 722550.0,
+    "mean": 24085.0,
+    "median": 14250.0,
+    "std": 22957.66,
+    "min": 2400.0,
+    "max": 107000.0,
+    "p25": 7525.0,
+    "p75": 35000.0,
+    "p90": 53500.0
+  },
+  "revenue_by_category": {
+    "total": {
+      "Electronics": 529300.0,
+      "Furniture": 193250.0
+    },
+    "avg_order": {
+      "Electronics": 26465.0,
+      "Furniture": 19325.0
+    },
+    "orders": {
+      "Electronics": 20,
+      "Furniture": 10
+    },
+    "revenue_share_%": {
+      "Electronics": 73.3,
+      "Furniture": 26.7
+    }
+  },
+  "revenue_by_region": {
+    "total": {
+      "East": 185350.0,
+      "North": 141700.0,
+      "South": 129300.0,
+      "West": 266200.0
+    },
+    "avg_order": {
+      "East": 26478.57,
+      "North": 17712.5,
+      "South": 18471.43,
+      "West": 33275.0
+    },
+    "orders": {
+      "East": 7,
+      "North": 8,
+      "South": 7,
+      "West": 8
+    },
+    "revenue_share_%": {
+      "East": 25.7,
+      "North": 19.6,
+      "South": 17.9,
+      "West": 36.8
+    }
+  },
+  "monthly_trend": {
+    "revenue": {
+      "2024-01": 324550.0,
+      "2024-02": 398000.0
+    },
+    "orders": {
+      "2024-01": 15,
+      "2024-02": 15
+    }
+  },
+  "sales_rep_performance": {
+    "total": {
+      "Ankit Mehta": 238850.0,
+      "Priya Nair": 212700.0,
+      "Sneha Joshi": 152400.0,
+      "Raj Verma": 118600.0
+    },
+    "avg_order": {
+      "Ankit Mehta": 29856.25,
+      "Priya Nair": 30385.71,
+      "Sneha Joshi": 21771.43,
+      "Raj Verma": 14825.0
+    },
+    "orders": {
+      "Ankit Mehta": 8,
+      "Priya Nair": 7,
+      "Sneha Joshi": 7,
+      "Raj Verma": 8
+    }
+  },
+  "order_status": {
+    "counts": {
+      "Completed": 25,
+      "Pending": 3,
+      "Cancelled": 2
+    },
+    "pct": {
+      "Completed": 83.3,
+      "Pending": 10.0,
+      "Cancelled": 6.7
+    },
+    "revenue_by_status": {
+      "Cancelled": 17300.0,
+      "Completed": 596250.0,
+      "Pending": 109000.0
+    }
+  },
+  "correlations": {
+    "matrix": {
+      "order_id": {
+        "order_id": 1.0,
+        "quantity": -0.129,
+        "unit_price": 0.026,
+        "total_revenue": 0.045,
+        "avg_unit_value": 0.026,
+        "is_completed": 0.047
+      },
+      "quantity": {
+        "order_id": -0.129,
+        "quantity": 1.0,
+        "unit_price": -0.519,
+        "total_revenue": -0.218,
+        "avg_unit_value": -0.519,
+        "is_completed": 0.143
+      },
+      "unit_price": {
+        "order_id": 0.026,
+        "quantity": -0.519,
+        "unit_price": 1.0,
+        "total_revenue": 0.85,
+        "avg_unit_value": 1.0,
+        "is_completed": -0.134
+      },
+      "total_revenue": {
+        "order_id": 0.045,
+        "quantity": -0.218,
+        "unit_price": 0.85,
+        "total_revenue": 1.0,
+        "avg_unit_value": 0.85,
+        "is_completed": -0.023
+      },
+      "avg_unit_value": {
+        "order_id": 0.026,
+        "quantity": -0.519,
+        "unit_price": 1.0,
+        "total_revenue": 0.85,
+        "avg_unit_value": 1.0,
+        "is_completed": -0.134
+      },
+      "is_completed": {
+        "order_id": 0.047,
+        "quantity": 0.143,
+        "unit_price": -0.134,
+        "total_revenue": -0.023,
+        "avg_unit_value": -0.134,
+        "is_completed": 1.0
+      }
+    },
+    "high_corr_pairs": [
+      {
+        "col_a": "unit_price",
+        "col_b": "total_revenue",
+        "correlation": 0.85
+      },
+      {
+        "col_a": "unit_price",
+        "col_b": "avg_unit_value",
+        "correlation": 1.0
+      },
+      {
+        "col_a": "total_revenue",
+        "col_b": "avg_unit_value",
+        "correlation": 0.85
+      }
+    ]
+  }
+}
