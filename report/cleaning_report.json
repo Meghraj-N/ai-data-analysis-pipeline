@@ -1,0 +1,48 @@
+{
+  "original_shape": [
+    30,
+    10
+  ],
+  "cleaned_shape": [
+    30,
+    16
+  ],
+  "rows_removed": 0,
+  "columns_added": 6,
+  "missing_before": 3,
+  "missing_after": 0,
+  "missing_reduction": "100.0%",
+  "steps": [
+    {
+      "step": "duplicates",
+      "detail": "Removed 0 exact duplicate rows. Rows remaining: 30",
+      "ts": "2026-06-24T08:46:50.959895"
+    },
+    {
+      "step": "data_types",
+      "detail": "Type corrections: 'order_date' \u2192 datetime (success rate 100%)",
+      "ts": "2026-06-24T08:46:50.964076"
+    },
+    {
+      "step": "missing_values",
+      "detail": "Missing: 3 \u2192 0. 'product': 1 (3.3%) filled with mode='Laptop' | 'quantity': 1 (3.3%) filled with median=2.0000 | 'unit_price': 1 (3.3%) filled with median=8500.0000",
+      "ts": "2026-06-24T08:46:50.967640"
+    },
+    {
+      "step": "normalise_text",
+      "detail": "Cleaned 6 text columns: ['customer_name', 'product', 'category', 'region', 'sales_rep', 'status']",
+      "ts": "2026-06-24T08:46:50.970851"
+    },
+    {
+      "step": "outliers",
+      "detail": "Total outliers capped: 3. 'unit_price': 3 outliers capped \u2192 [-26500.00, 53500.00]",
+      "ts": "2026-06-24T08:46:50.974854"
+    },
+    {
+      "step": "feature_engineering",
+      "detail": "Added 4 columns: total_revenue = quantity \u00d7 unit_price | avg_unit_value = total_revenue \u00f7 quantity | order_month, order_quarter, order_dayofweek from order_date | is_completed (binary flag)",
+      "ts": "2026-06-24T08:46:50.977869"
+    }
+  ],
+  "generated_at": "2026-06-24T08:46:50.979837"
+}
