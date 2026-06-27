@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────
+# AI Data Analysis Pipeline — Configuration
+# Author: Meghraj Nikalje
+# ─────────────────────────────────────────────────────────────
+
+pipeline:
+  version: "2.0.0"
+  name: "ai-data-analysis-pipeline"
+
+data:
+  input_file: "sample_data.csv"
+  output_dir: "report"
+  encoding: "utf-8"
+
+cleaning:
+  outlier_method: "iqr"         # iqr | zscore
+  outlier_action: "cap"         # cap | remove
+  iqr_multiplier: 1.5
+  zscore_threshold: 3.0
+  fill_numeric: "median"        # median | mean | zero
+  fill_categorical: "mode"      # mode | unknown
+
+eda:
+  top_n_categories: 10
+  correlation_threshold: 0.7    # flag high correlations above this
+
+visualisation:
+  figure_dpi: 150
+  figure_size: [14, 10]
+  style: "whitegrid"
+  color_primary:   "#1A56A0"
+  color_success:   "#27AE60"
+  color_danger:    "#E74C3C"
+  color_neutral:   "#7F8C8D"
+  color_accent:    "#8E44AD"
+
+ai:
+  model: "claude-sonnet-4-6"
+  max_tokens: 2000
+  timeout_seconds: 45
+  max_rows_in_prompt: 200       # summarise, never send raw data to API
+
+logging:
+  level: "INFO"                 # DEBUG | INFO | WARNING | ERROR
+  log_file: "report/pipeline.log"
+  format: "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
