@@ -1,0 +1,31 @@
+order_id,customer_name,product,category,quantity,unit_price,order_date,region,sales_rep,status
+1001,Rahul Sharma,Laptop,Electronics,1,55000,2024-01-05,West,Ankit Mehta,Completed
+1002,Priya Patel,Office Chair,Furniture,3,8500,2024-01-07,North,Sneha Joshi,Completed
+1003,Amit Kumar,,Electronics,2,1200,2024-01-08,South,Raj Verma,Completed
+1004,Sunita Rao,Desk Lamp,Furniture,5,850,2024-01-10,East,Ankit Mehta,Completed
+1005,Vikram Singh,Smartphone,Electronics,1,32000,2024-01-12,West,Priya Nair,Completed
+1006,Meena Desai,Printer,Electronics,1,12500,2024-01-14,North,Raj Verma,Cancelled
+1007,Arjun Nair,Standing Desk,Furniture,2,22000,2024-01-15,South,Sneha Joshi,Completed
+1008,Kavya Iyer,Headphones,Electronics,4,3500,2024-01-17,East,Ankit Mehta,Completed
+1009,Rohit Gupta,Monitor,Electronics,2,18000,2024-01-19,West,Priya Nair,Pending
+1010,Deepa Reddy,Bookshelf,Furniture,1,6500,2024-01-20,North,Raj Verma,Completed
+1011,Suresh Pillai,Keyboard,Electronics,3,2200,2024-01-22,South,Sneha Joshi,Completed
+1012,Nisha Tiwari,Mouse,Electronics,5,,2024-01-23,East,Ankit Mehta,Completed
+1013,Karan Malhotra,Webcam,Electronics,2,3800,2024-01-25,West,Priya Nair,Completed
+1014,Pooja Shah,Filing Cabinet,Furniture,1,9200,2024-01-27,North,Raj Verma,Completed
+1015,Arun Joshi,Tablet,Electronics,1,28000,2024-01-28,South,Sneha Joshi,Pending
+1016,Lakshmi Menon,USB Hub,Electronics,6,1500,2024-02-01,East,Ankit Mehta,Completed
+1017,Ganesh Rao,Office Chair,Furniture,2,8500,2024-02-03,West,Priya Nair,Completed
+1018,Shweta Kapoor,Laptop,Electronics,1,62000,2024-02-05,North,Raj Verma,Completed
+1019,Tarun Bhatt,Desk Mat,Furniture,4,1200,2024-02-07,South,Sneha Joshi,Cancelled
+1020,Divya Nambiar,Smartphone,Electronics,2,29000,2024-02-08,East,Ankit Mehta,Completed
+1021,Manish Agarwal,Power Bank,Electronics,3,2500,2024-02-10,West,Priya Nair,Completed
+1022,Rekha Saxena,Printer,Electronics,1,14500,2024-02-12,North,Raj Verma,Completed
+1023,Vinod Choudhary,Monitor,Electronics,1,19500,2024-02-14,South,Sneha Joshi,Completed
+1024,Ananya Krishnan,Sofa Set,Furniture,1,45000,2024-02-15,East,Ankit Mehta,Pending
+1025,Sanjay Mishra,Laptop,Electronics,2,58000,2024-02-18,West,Priya Nair,Completed
+1026,Geeta Verma,Headphones,Electronics,,3500,2024-02-20,North,Raj Verma,Completed
+1027,Harish Pillai,Standing Desk,Furniture,1,24000,2024-02-22,South,Sneha Joshi,Completed
+1028,Padma Suresh,Webcam,Electronics,3,4200,2024-02-23,East,Ankit Mehta,Completed
+1029,Nikhil Pandey,Keyboard,Electronics,2,2800,2024-02-25,West,Priya Nair,Completed
+1030,Usha Bhatia,Bookshelf,Furniture,2,6500,2024-02-27,North,Raj Verma,Completed
